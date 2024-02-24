@@ -2,11 +2,10 @@
 box-sizing: border-box;
 margin: 0;
 padding:0;
-background-color: rgb(204, 201, 199);
 }
 h1{
     color: rgb(10, 1, 15);
-    background-image: linear-gradient(to top, rgba(204, 201, 199, 0.986), rgba(117, 78, 27, 0.493));
+    background-image: linear-gradient(to top, #ccc9c7fb, rgba(117, 78, 27, 0.493));
     padding-left: 500px;
 }
 
@@ -17,7 +16,7 @@ header .container{
 
 header li{
     display: inline;
-    color: darkslateblue;
+    
 }
 
 .container {
@@ -63,3 +62,83 @@ p{
     color: darkslategrey;
 }
 
+.Articles article p{
+font-family:'Arial Narrow Bold';
+}
+
+.Articles article a{
+    font-family:Calibri;
+}
+
+
+
+
+
+#Esportes{
+    background-image: linear-gradient(to top,#e8e5e3a9, #ccc9c7fb);
+    padding-top: 1px;
+    padding-left: 250px;
+    .Articles article a{
+        background-color: #a0c06c57;
+        color: black ;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .Articles article a:hover{
+        text-decoration: underline;
+        }
+}
+
+#Economia{
+    background-image: linear-gradient(to top, #cadfc6af, #e8e5e3a9);
+    padding-top:1px;
+    padding-left: 250px;
+    .Articles article a{
+        background-color: #ff00002c;
+        color: black ;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .Articles article a:hover{
+        text-decoration: underline;
+        }
+}
+
+#Entretenimento{
+    background-image: linear-gradient(to top, #c5b6cfa9, #cadfc6af);
+    padding-top: 1px;
+    padding-left: 250px;
+    .Articles article a{
+        background-color: #c4deff81;
+        color: black ;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .Articles article a:hover{
+        text-decoration: underline;
+        }
+}
+
+#Tecnologia{
+    background-image: linear-gradient(to top,#c7c295b7, #c5b6cfaf);
+    padding-top: 1px;
+    padding-left: 250px;
+    .Articles article a{
+        background-color: #40964752;
+        color: black ;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .Articles article a:hover{
+        text-decoration: underline;
+        }
+}
+ 
+a{
+    color: black;
+}
+
+footer{
+    padding-bottom: 10px;
+    background-color: #c7c295b7;
+}
